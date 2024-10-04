@@ -10,7 +10,7 @@
     "description": "NextJS Typescript App",
     "icons": [
       {
-        "src": "/images/document-picture-png-icon192.png",
+        "src": "/logo192X192.png",
         "sizes": "192x192",
         "type": "image/png"
       }
