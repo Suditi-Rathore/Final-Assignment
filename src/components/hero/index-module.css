@@ -1,0 +1,180 @@
+.image-container {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+    /* max-width: 800px;  */
+  }
+  
+  .background-img {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-img {
+    position: absolute;
+    top: 0px;
+    right: 400px;
+    width: 600px; 
+    z-index: 10; 
+  }
+
+  .tag-img{
+    position:absolute;
+    top: 30px;
+    right: 880px;
+    width: 200px; 
+    z-index: 20; 
+
+  }
+
+  .rating-img{
+    position:absolute;
+    top: 380px;
+    right: 405px;
+    width: 90px; 
+    z-index: 20; 
+
+  }
+
+  .video-container{
+    position: relative;
+    width: 100%;
+
+  }
+
+  .overlay-video{
+    position:absolute;
+    bottom: -300px;
+    right: 130px;
+    width: 65%; 
+    z-index: 30; 
+    border:3px solid white;
+    border-radius: 20px;
+
+  }
+
+  .timer-hero{
+    position:absolute;
+    bottom: 300px;
+    right: 0px;
+    width: 50%; 
+    z-index: 40; 
+    
+
+  }
+
+  .countdown-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    font-size: small;
+  }
+  
+  .countdown {
+    display: flex;
+    gap: 10px;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  
+  .countdown span {
+    background-color: #7717cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    
+      .background-img {
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+      }
+      
+      .overlay-img {
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        width: 70%; 
+        z-index: 10; 
+      }
+    
+      .tag-img{
+        position:absolute;
+        top: 30px;
+        left: 30px;
+        width: 100px; 
+        z-index: 20; 
+    
+      }
+    
+      .rating-img{
+        position:absolute;
+        top: 130px;
+        right: 30px;
+        width: 80px; 
+        z-index: 20; 
+    
+      }
+    
+      .video-container{
+        position: relative;
+        width: 100%;
+    
+      }
+    
+      .overlay-video{
+        position:absolute;
+        bottom: 100px;
+        left: 10px;
+        width: 80%; 
+        z-index: 30; 
+        border:3px solid white;
+        border-radius: 20px;
+    
+      }
+    
+      .timer-hero{
+        position:absolute;
+        bottom: 270px;
+        left: 10px;
+        width: 50%; 
+        z-index: 40; 
+        
+    
+      }
+    
+      .countdown-wrapper {
+        display: flex;
+        gap: 2px;
+        justify-content: start;
+        align-items: center;
+        font-size: x-small;
+      }
+      
+      .countdown {
+        display: flex;
+        gap: 4px;
+        font-size: x-small;
+        font-weight: bold;
+        text-align: center;
+        text-wrap: wrap;
+      }
+      
+      .countdown span {
+        background-color: #7717cc;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 8px;
+      }
+    
+      
+    
+    
+  }
