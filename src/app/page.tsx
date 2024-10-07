@@ -1,4 +1,4 @@
-import SeasonalHoliday from "@/container/seasonalHoliday";
+import SeasonalHoliday from "@/container/seasonalHoliday/index";
 import { Suspense } from "react";
 
 export default function Home() {

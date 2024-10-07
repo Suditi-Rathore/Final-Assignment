@@ -1,7 +1,7 @@
-import Explore from "@/components/explore";
-import Hero from "@/components/hero/index";
-import HolidayFooter from "@/components/holidayFooter";
-import ItemDisplay from "@/components/itemDisplay/index";
+import Explore from "./explore";
+import Hero from "./hero/index";
+import HolidayFooter from "./holidayFooter";
+import ItemDisplay from "./itemDisplay/index";
 
 const SeasonalHoliday = () => {
   return (

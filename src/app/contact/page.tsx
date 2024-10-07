@@ -1,4 +1,4 @@
-import ContactPage from "@/container/contactPage";
+import ContactPage from "@/container/contactPage/index";
 import { Suspense } from "react";
 
 const page = () => {
